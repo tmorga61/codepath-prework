@@ -1,0 +1,132 @@
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f7bcc3;
+  color: black;
+}
+
+h1 {
+  color: white;
+}
+
+div {
+  padding: 10px;
+}
+
+button {
+  background-color: seashell;
+  font-size: 1.25em;
+  font-family: sans-serif;
+  border-style: solid;
+}
+
+#startAndstopButtons > button {
+  width: 80px;
+  height: 40px;
+  border-style: none;
+  border-radius: 8px;
+}
+
+#blackKeys > button {
+  color: white;
+  background-color: #2F3537;
+  border-color: black;
+  border-bottom-color: #262B2C;
+  border-top-color: #2F3537;
+  font-family: sans-serif, helvetica;
+  width: 50px;
+  height: 150px;
+  margin: 2px;
+  border-width: 10px;
+  border-radius: 5px;
+}
+
+#whiteKeys > button {
+  width: 65px;
+  height: 200px;
+  margin: 2px;
+  border-width: 10px;
+  border-color: seashell;
+  border-bottom-color: lightgrey;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+#startBtn:hover {
+  width: 90px;
+  height: 50px;
+}
+
+#stopBtn:hover {
+  width: 90px;
+  height: 50px;
+}
+
+#button1:active,
+#button1.lit {
+  background: lightcoral;
+  border-color: indianred;
+  border-top-color: lightcoral;
+  border-bottom-color: lightpink;
+}
+
+#button2:active,
+#button2.lit {
+  background: sandybrown;
+  border-color: peru;
+  border-top-color: sandybrown;
+  border-bottom-color: navajowhite;
+}
+
+#button3:active,
+#button3.lit {
+  background: olivedrab;
+  border-color: darkgreen;
+  border-top-color: olivedrab;
+  border-bottom-color: darkseagreen;
+}
+
+/*4 button*/
+#button4:active,
+#button4.lit {
+  background: skyblue;
+  border-color: skyblue;
+  border-bottom-color: powderblue;
+}
+
+#button7:active,
+#button7.lit {
+  background: burlywood;
+  border-color: burlywood;
+  border-bottom-color: blanchedalmond;
+}
+
+#button6:active,
+#button6.lit {
+  background: #644A40;
+  border-color: #644A40;
+  border-bottom-color: #896658;
+}
+
+#button5:active,
+#button5.lit {
+  background: orchid;
+  border-color: orchid;
+  border-bottom-color: plum;
+}
+
+#keys {
+  background-color: #9b6554;
+  border-style: solid;
+  border-color: #844b39;
+  border-top-color: #c68f7d;
+  border-radius: 5px;
+  border-width: 20px;
+  border-bottom-color: #6c3929;
+  width: 350px;
+  margin: auto;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SITE Prework Memory Game</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+<body>
+  <h1>Muscial Memory Game</h1>
+    
+  <p>
+      Welcome to the game! Watch the keys and repeat the sequence to win.
+  </p>
+  
+  <div id="catImage">
+    <img src="https://cdn.glitch.com/3da0fb02-661b-4fb3-af41-fc82a5b61949%2Fcatassett.png?v=1616050617932" alt="Cat with Music Notes">
+  </div>
+  
+  <div id="startAndstopButtons">
+      <button id="startBtn" onclick="startGame()">START</button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">STOP</button>
+  </div>
+  
+  <div id="keys"> 
+      <div id="blackKeys">
+          <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="guess(1)">♡</button>
+          <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone()" onclick="guess(2)">♡</button>
+          <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone()" onclick="guess(3)">♡</button>
+      </div>  
+
+      <div id="whiteKeys">
+          <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone()" onclick="guess(4)">♥</button>
+          <button id="button5" onmousedown="startTone(5)" onmouseup="stopTone()" onclick="guess(5)">♥</button>
+          <button id="button6" onmousedown="startTone(6)" onmouseup="stopTone()" onclick="guess(6)">♥</button>
+          <button id="button7" onmousedown="startTone(7)" onmouseup="stopTone()" onclick="guess(7)">♥</button>
+      </div>
+  </div>
+
+  </body>
+</html>
