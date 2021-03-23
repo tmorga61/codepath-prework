@@ -28,6 +28,8 @@ function startGame() {
 
 function stopGame() {
   gamePlaying = false;
+  guessCounter = 0;
+  strikeCounter = 0;
   // swap the Start and Stop buttons
   document.getElementById("startBtn").classList.remove("hidden");
   document.getElementById("stopBtn").classList.add("hidden");
@@ -105,6 +107,7 @@ const freqMap = {
   6: 600,
   7: 660
 }
+
 function playTone(btn,len){ 
   o.frequency.value = freqMap[btn]
   g.gain.setTargetAtTime(volume,context.currentTime + 0.05,0.025)
